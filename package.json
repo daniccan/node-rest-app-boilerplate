@@ -1,0 +1,40 @@
+{
+  "name": "node-rest-app",
+  "version": "1.0.0",
+  "description": "Boilerplate Implementation of a Node based REST App",
+  "main": "app.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniccan/node-rest-app-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "daniccan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniccan/node-rest-app-boilerplate/issues"
+  },
+  "homepage": "https://github.com/daniccan/node-rest-app-boilerplate#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.26.0",
+    "btoa": "1.2.1",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.0",
+    "sequelize": "^6.15.0",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "dotenv": "^14.1.0",
+    "sequelize-cli": "^6.4.1"
+  }
+}
